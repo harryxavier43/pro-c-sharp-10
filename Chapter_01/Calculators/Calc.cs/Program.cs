@@ -1,8 +1,17 @@
-﻿Calc c = new Calc();
-int ans = c.Add(10, 84);
-Console.WriteLine("10 + 84 is {0}.", ans);
-//Wait for user to press the Enter key
-Console.ReadLine();
+﻿namespace Calc.Cs;
+public class Program
+{
+    public static int Main()
+    {
+        Calc c = new Calc();
+        int ans = c.Add(10, 84);
+        Console.WriteLine("10 + 84 is {0}.", ans);
+        Console.ReadLine();
+        return ans;
+    }
+}
+
+
 
 class Calc
 {
