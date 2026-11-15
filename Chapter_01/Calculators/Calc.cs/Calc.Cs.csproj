@@ -16,4 +16,8 @@
 	<InternalsVisibleTo Include="CalcProjects.Tests" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CalcLib\CalcLib.csproj" />
+  </ItemGroup>
+
 </Project>
